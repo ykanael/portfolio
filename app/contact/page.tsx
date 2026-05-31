@@ -23,22 +23,24 @@ export default function Contact() {
         message: formData.message,
       };
       
-      const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-      const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+      // 1. On récupère les variables dans des constantes
+const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-      if (!serviceID || !templateID || !publicKey) {
-        throw new Error("Les variables d'environnement EmailJS sont manquantes.");
-      }
+// 2. On vérifie qu'elles sont bien présentes
+if (!serviceId || !templateId || !publicKey) {
+  console.error("Erreur : Variables d'environnement manquantes");
+  return; // Arrête l'exécution si les clés sont absentes
+}
 
-await emailjs.send(serviceID, templateID, templateParams, publicKey);
-      // Appel à l'API EmailJS
-      await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        templateParams,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
-      );
+// 3. TypeScript sait maintenant que ces variables sont des 'string' (et plus 'undefined')
+await emailjs.send(
+  serviceId,
+  templateId,
+  templateParams,
+  publicKey
+);
 
       setSuccess(true);
       setFormData({ nom: "", email: "", message: "" });
