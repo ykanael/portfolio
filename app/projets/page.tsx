@@ -5,17 +5,17 @@ export default function Projets() {
       public: "18-23 ans",
       structure: "IUT Tourcoing",
       description:
-        "Conception et animation d'ateliers de partage de mémoire entre les jeunes d'un club ado et les résidents d'un EHPAD local autour du jeu et de la cuisine.",
+        "Action et distribution solidaire auprès des étudiants en situation de précarité alimentaire.",
       impact:
-        "15 seniors et 12 ados mobilisés sur 4 semaines. Création d'un recueil de recettes partagées.",
+        "Un soutien alimentaire apporté aux étudiants sans stigmatisation et une création de nouveau lien sociaux.",
     },
     {
-      titre: "Chantier Jeunes Citoyens",
-      public: "14-17 ans",
-      structure: "MJC / Service Jeunesse",
+      titre: "Adaptation d’une classe pour les élèves atteints de troubles DYS",
+      public: "5-7 ans",
+      structure: "Ecole maternelle et primaire",
       description:
-        "Organisation d'une semaine de réhabilitation d'un espace public par les jeunes, couplée à des activités de loisirs et des débats sur la citoyenneté.",
-      impact: "Valorisation des jeunes dans leur quartier, développement de l'autonomie.",
+        "Conception et organisation sur 6 semaines d’outils et d’accompagnement individuel avec les enfants de la classe.",
+      impact: "Les élèves travaillent mieux, plus rapidement et sont moins angoissés par la peur d’échouer.",
     },
   ];
 
