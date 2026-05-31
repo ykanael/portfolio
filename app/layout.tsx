@@ -1,45 +1,69 @@
-"use client"; // Indique à Next.js que ce composant est interactif
+"use client";
 
+import { Heart, House, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  // État pour savoir si le menu mobile est ouvert ou fermé
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <html lang="fr">
-      <body className="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col justify-between">
-        {/* Barre de navigation */}
-        <nav className="bg-white shadow-sm sticky top-0 z-50">
+      <body className="antialiased min-h-screen flex flex-col justify-between">
+        <nav className="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-            {/* Logo / Titre */}
-            <Link href="/" className="font-bold text-xl text-indigo-600">
-              Mon Portfolio ASSC
-            </Link>
+            <div className="flex gap-2">
+              <Link href="/" className="font-bold text-xl text-[#CF7B71] top-[0.830rem] relative">
+                Mon Portfolio
+              </Link>
+              <Image
+                src="/logo2.png"
+                alt="Mini Logo"
+                width={50}
+                height={25}
+                className="object-contain h-10 w-auto md:h-12"
+              />
+            </div>
 
-            {/* Menu Desktop (visible uniquement sur grand écran) */}
-            <div className="hidden md:flex space-x-6 font-medium">
-              <Link href="/" className="hover:text-indigo-600 transition">
-                Accueil
+            {/* Navigation Desktop */}
+            <div className="hidden md:flex space-x-2 font-medium text-stone-600 items-center">
+              <Link
+                href="/"
+                className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
+              >
+                <div className="flex gap-1.5">
+                  <House className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  Accueil
+                </div>
               </Link>
-              <Link href="/projets" className="hover:text-indigo-600 transition">
-                Mes Projets
+              <Link
+                href="/projets"
+                className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
+              >
+                <div className="flex gap-1.5">
+                  <Heart className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  Mes Projets
+                </div>
               </Link>
-              <Link href="/contact" className="hover:text-indigo-600 transition">
-                Contact
+              <Link
+                href="/contact"
+                className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
+              >
+                <div className="flex gap-1.5">
+                  <Phone className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  Contact
+                </div>
               </Link>
             </div>
 
-            {/* Bouton Burger (visible uniquement sur mobile/tablette) */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden text-slate-700 focus:outline-none p-2"
-              aria-label="Ouvrir le menu"
+              className="md:hidden text-stone-600 focus:outline-none p-2"
             >
               {isOpen ? (
-                // Icône "Croix" (Fermer)
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -49,7 +73,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   />
                 </svg>
               ) : (
-                // Icône "Burger" (Ouvrir)
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -62,27 +85,27 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </button>
           </div>
 
-          {/* Menu Mobile Déroulant (s'affiche si isOpen est vrai) */}
+          {/* Navigation Mobile */}
           {isOpen && (
-            <div className="md:hidden bg-white border-t border-slate-100 px-4 py-3 space-y-3 flex flex-col font-medium shadow-inner animate-fade-in">
+            <div className="md:hidden bg-white border-t border-stone-100 px-4 py-4 space-y-2 flex flex-col font-medium shadow-inner items-center">
               <Link
                 href="/"
                 onClick={() => setIsOpen(false)}
-                className="hover:text-indigo-600 py-1 transition"
+                className="text-stone-600 px-6 py-2 transition-all duration-300 hover:bg-[#CF7B71] hover:text-white hover:rounded-[50%]"
               >
                 Accueil
               </Link>
               <Link
                 href="/projets"
                 onClick={() => setIsOpen(false)}
-                className="hover:text-indigo-600 py-1 transition"
+                className="text-stone-600 px-6 py-2 transition-all duration-300 hover:bg-[#CF7B71] hover:text-white hover:rounded-[50%]"
               >
                 Mes Projets
               </Link>
               <Link
                 href="/contact"
                 onClick={() => setIsOpen(false)}
-                className="hover:text-indigo-600 py-1 transition"
+                className="text-stone-600 px-6 py-2 transition-all duration-300 hover:bg-[#CF7B71] hover:text-white hover:rounded-[50%]"
               >
                 Contact
               </Link>
@@ -90,13 +113,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           )}
         </nav>
 
-        {/* Contenu principal */}
         <main className="flex-grow max-w-5xl w-full mx-auto px-4 py-12">{children}</main>
 
-        {/* Pied de page */}
-        <footer className="bg-white border-t border-slate-200 py-6 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()} - Étudiante ASSC. Fait avec Next.js.
-        </footer>
+        <Footer />
       </body>
     </html>
   );

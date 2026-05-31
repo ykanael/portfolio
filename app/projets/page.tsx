@@ -3,7 +3,7 @@ export default function Projets() {
     {
       titre: "Projet Intergénérationnel 'Mémoire Vive'",
       public: "Seniors & Adolescents",
-      structure: "Centre Social des Trois Vallées (Stage)",
+      structure: "Centre Social des Trois Vallées",
       description:
         "Conception et animation d'ateliers de partage de mémoire entre les jeunes d'un club ado et les résidents d'un EHPAD local autour du jeu et de la cuisine.",
       impact:
@@ -22,8 +22,8 @@ export default function Projets() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-3xl font-bold text-slate-900">Mes Projets & Expériences</h1>
-        <p className="text-slate-500 mt-2">
+        <h1 className="text-3xl font-bold text-stone-800">Mes Projets & Expériences</h1>
+        <p className="text-stone-500 mt-2">
           Découvre les actions concrètes que j'ai menées sur le terrain.
         </p>
       </div>
@@ -32,31 +32,30 @@ export default function Projets() {
         {projets.map((p, idx) => (
           <div
             key={idx}
-            className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col md:flex-row gap-6"
+            className="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 flex flex-col md:flex-row gap-6 hover:shadow-md transition"
           >
-            <div className="md:w-1/4 bg-slate-100 rounded-xl p-4 flex flex-col justify-between text-sm">
+            <div className="md:w-1/4 bg-[#F8EBE9] rounded-xl p-4 flex flex-col justify-between text-sm border border-[#F3DDDA]">
               <div>
-                <span className="block font-bold text-slate-500 uppercase tracking-wider text-xs">
+                <span className="block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Public
                 </span>
-                <span className="text-slate-800 font-medium">{p.public}</span>
+                <span className="text-stone-700 font-medium">{p.public}</span>
               </div>
               <div className="mt-4">
-                <span className="block font-bold text-slate-500 uppercase tracking-wider text-xs">
+                <span className="block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Structure
                 </span>
-                <span className="text-slate-800 font-medium">{p.structure}</span>
+                <span className="text-stone-700 font-medium">{p.structure}</span>
               </div>
             </div>
 
             <div className="md:w-3/4 space-y-3">
-              <h2 className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition">
-                {p.titre}
-              </h2>
-              <p className="text-slate-600 leading-relaxed">{p.description}</p>
-              <div className="bg-indigo-50 border-l-4 border-indigo-500 p-3 rounded-r-lg">
-                <span className="font-semibold text-indigo-900 text-sm">Résultat / Impact : </span>
-                <span className="text-indigo-800 text-sm">{p.impact}</span>
+              <h2 className="text-2xl font-bold text-stone-800">{p.titre}</h2>
+              <p className="text-stone-600 leading-relaxed">{p.description}</p>
+
+              <div className="bg-[#F8EBE9] border-l-4 border-[#CF7B71] p-3 rounded-r-lg mt-4">
+                <span className="font-semibold text-[#8A4A43] text-sm">Résultat / Impact : </span>
+                <span className="text-[#A35952] text-sm">{p.impact}</span>
               </div>
             </div>
           </div>
