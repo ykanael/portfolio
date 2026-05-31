@@ -48,7 +48,7 @@ export default function Home() {
       type: "Niveau d'étude",
       annee: "En cours",
       titre: " BUT 2 ASSC",
-      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.",
+      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle. \n Niveau de langue : Anglais B1",
     },
     {
       type: "Expérience",
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="relative max-w-7xl mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12 xl:gap-20">
         <div className="absolute top-0 right-0 w-full md:w-[75%] h-full  rounded-bl-[100px] md:rounded-bl-[200px] -z-10 opacity-60"></div>
 
-        <div className="md:w-1/2 space-y-6 z-10 w-full lg:relative lg:-top-46">
+        <div className="md:w-1/2 space-y-6 z-10 w-full lg:relative lg:-top-70">
           {/* Zone d'en-tête avec animation ET petit logo */}
           <div className="flex flex-wrap items-center gap-4 mb-4">
             <div className="flex items-center gap-3">
@@ -119,14 +119,17 @@ export default function Home() {
 
         {/* --- Droite : Arche photo et Logo principal --- */}
         <div className="md:w-1/2 relative flex flex-col items-center justify-center z-10 mt-6 md:mt-0 w-full md:-mt-16 gap-6">
-          <span className="absolute top-0 left-4 text-[#D48D85] text-3xl z-20" aria-hidden="true">
+          <span className="absolute -top-6 left-7 text-[#D48D85] text-5xl z-20" aria-hidden="true">
+            ✦
+          </span>
+          <span className="absolute top-0 left-3 text-[#D48D85] text-3xl z-20" aria-hidden="true">
             ✦
           </span>
 
           <div className="relative w-[260px] h-[350px] sm:w-[320px] sm:h-[420px] md:w-[380px] md:h-[500px]">
-            <div className="absolute inset-0 bg-[#FAF5F0] rounded-t-[1000px] rounded-b-3xl border-[6px] border-white shadow-lg overflow-hidden flex items-center justify-center z-10">
+            <div className="absolute inset-0 bg-[#FAF5F0] rounded-tl-[100px] rounded-br-[100px] rounded-tr-xl rounded-bl-xl border-[6px] border-[#fde1dd] shadow-lg overflow-hidden flex items-center justify-center z-10">
               <Image
-                src="/portrait.jpg"
+                src="/portrait6.png"
                 alt="Portrait professionnel"
                 fill
                 className="object-cover"
@@ -135,7 +138,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="px-6 py-3 z-20 flex items-center justify-center">
+          <div className="px-6 py-3 z-20 flex items-center justify-center lg:relative lg:right-70">
             <Image
               src="/logo2.png"
               alt="Mon Logo"
@@ -177,7 +180,7 @@ export default function Home() {
                     <h4 className="text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
-                    <p className="text-[#6D4C4B] text-sm md:text-base leading-relaxed">
+                    <p className="text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
                       {item.desc}
                     </p>
                   </div>
@@ -323,10 +326,9 @@ export default function Home() {
 
           <div className="relative z-10 flex flex-col md:flex-row gap-8 items-center md:items-start">
             <div className="md:w-1/3 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-serif text-[#472322] mb-2">Mes Attentes</h2>
-              <span className="text-sm font-bold uppercase tracking-wider text-[#D48D85]">
-                Professionnelles
-              </span>
+              <h2 className="text-3xl md:text-4xl font-serif text-[#472322] mb-2">
+                Mes Attentes Professionnelles
+              </h2>
             </div>
 
             <div className="md:w-2/3">
@@ -349,6 +351,14 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="bg-[#fcebe8] border-l-4 border-[#D48D85] mt-5 p-4 lg:p-6 rounded-lg">
+            <p className="text-sm lg:text-base text-gray-700">
+              💜 <strong>Aspirations professionnelles :</strong> En intégrant un Master MEEF, je
+              souhaite m’orienter vers le métier de Professeur des écoles ou Conseiller principal
+              d'éducation. Ces métiers répondent parfaitement à mes attentes et me permettront de
+              mettre mes compétences et mes valeurs au service des élèves.
+            </p>
           </div>
         </div>
       </section>
@@ -375,6 +385,14 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <Image
+        src="/deco2-photoroom.png"
+        alt="Ma déco"
+        width={1024}
+        height={60}
+        className="object-contain"
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
     </div>
   );
 }

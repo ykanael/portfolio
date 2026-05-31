@@ -15,7 +15,8 @@ export default function Projets() {
       structure: "Ecole maternelle et primaire",
       description:
         "Conception et organisation sur 6 semaines d’outils et d’accompagnement individuel avec les enfants de la classe.",
-      impact: "Les élèves travaillent mieux, plus rapidement et sont moins angoissés par la peur d’échouer.",
+      impact:
+        "Les élèves travaillent mieux, plus rapidement et sont moins angoissés par la peur d’échouer.",
     },
   ];
 
@@ -23,9 +24,7 @@ export default function Projets() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold text-stone-800">Mes Projets & Expériences</h1>
-        <p className="text-stone-500 mt-2">
-          Découvrez les projets que j'ai mené.
-        </p>
+        <p className="text-stone-500 mt-2">Découvrez les projets que j'ai mené.</p>
       </div>
 
       <div className="grid gap-8">
@@ -34,7 +33,7 @@ export default function Projets() {
             key={idx}
             className="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 flex flex-col md:flex-row gap-6 hover:shadow-md transition"
           >
-            <div className="md:w-1/4 bg-[#F8EBE9] rounded-xl p-4 flex flex-col justify-between text-sm border border-[#F3DDDA]">
+            <div className="md:w-1/4 bg-[#F8EBE9] rounded-xl px-4 py-8 flex flex-col justify-between text-sm border border-[#F3DDDA]">
               <div>
                 <span className="block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Public
