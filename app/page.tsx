@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const phrases = ["Créer du lien social", "Animer le quotidien", "Accompagner l'humain"];
+  const phrases = ["Créer du lien social", "Encourager l'autonomie", "Accompagner l'humain"];
 
   const [currentPhraseIdx, setCurrentPhraseIdx] = useState(0);
   const [currentText, setCurrentText] = useState("");
