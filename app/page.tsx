@@ -213,9 +213,9 @@ export default function Home() {
               {[
                 "Promouvoir l’inclusion",
                 "Accompagner les jeunes publics",
-                "Mettre en place des solutions pour les publics en difficulté",
-                "La coopération",
-                "L’autonomie",
+                "Soutenir les publics en difficulté",
+                "Favoriser la coopération",
+                "Encourager l’autonomie",
               ].map((valeur, idx) => (
                 <span
                   key={idx}
