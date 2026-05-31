@@ -97,7 +97,8 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-[#472322] leading-[1.1]">
-            Anaël Lecerf
+            Anaël 
+            Lecerf
           </h1>
 
           <div className="space-y-5 pt-2">
