@@ -360,7 +360,7 @@ export default function Home() {
 
           <div className="space-y-2 text-center md:text-left z-10">
             <h3 className="text-3xl md:text-4xl font-serif text-white leading-tight">
-              Construisons votre projet ensemble
+              Construisons quelque chose ensemble
             </h3>
             <p className="text-[#F5E1DE] text-sm md:text-base">
               Prêt(e) à me connaître davantage ?
