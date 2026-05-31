@@ -10,7 +10,7 @@ export default function Projets() {
         "Un soutien alimentaire apporté aux étudiants sans stigmatisation et une création de nouveau lien sociaux.",
     },
     {
-      titre: "Adaptation d’une classe pour les élèves atteints de troubles DYS",
+      titre: "Aménager l'environnement scolaire pour les élèves DYS",
       public: "5-7 ans",
       structure: "Ecole maternelle et primaire",
       description:
