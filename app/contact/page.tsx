@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 // Importation des icônes
+import emailjs from "@emailjs/browser"; // <-- Ajout de l'import
 import { CheckCircle, GraduationCap, Mail, Phone } from "lucide-react";
 import Image from "next/image";
 
@@ -14,16 +15,34 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulation d'envoi
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      // Les paramètres que tu envoies à ton modèle EmailJS
+      const templateParams = {
+        name: formData.nom,
+        email: formData.email,
+        message: formData.message,
+      };
+
+      // Appel à l'API EmailJS
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      );
+
       setSuccess(true);
       setFormData({ nom: "", email: "", message: "" });
-    }, 1500);
+    } catch (error) {
+      console.error("Erreur lors de l'envoi de l'email :", error);
+      alert("Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
-    <div className="bg-[#FAF5F0] min-h-screen pt-12 pb-24 px-6 font-sans text-[#472322]">
+    <div className=" min-h-screen pt-12 pb-24 px-6 font-sans text-[#472322]">
       <div className="max-w-6xl mx-auto">
         {/* En-tête */}
         <div className="text-center mb-16">
@@ -31,7 +50,8 @@ export default function Contact() {
             On collabore ?
           </h1>
           <p className="text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto">
-            À la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter via le formulaire ou directement via mes coordonnées. 
+            À la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter
+            via le formulaire ou directement via mes coordonnées.
           </p>
         </div>
 
@@ -68,7 +88,7 @@ export default function Contact() {
                   Email Pro
                 </p>
                 <a
-                  href="lecerfanaelpro@gmail.com"
+                  href="mailto:lecerfanaelpro@gmail.com"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
                   lecerfanaelpro@gmail.com
@@ -86,7 +106,7 @@ export default function Contact() {
                   Email Universitaire
                 </p>
                 <a
-                  href="anael.lecerf.etu@univ-lille.fr"
+                  href="mailto:anael.lecerf.etu@univ-lille.fr"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
                   anael.lecerf.etu@univ-lille.fr
