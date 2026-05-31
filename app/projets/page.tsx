@@ -13,8 +13,7 @@ export default function Projets() {
       titre: "Aménager l'environnement scolaire pour les élèves DYS",
       public: "5-7 ans",
       structure: "Ecole maternelle et primaire",
-      description:
-        "Conception et organisation sur 6 semaines d’outils et d’accompagnement individuel avec les enfants de la classe.",
+      description: "Création d'outils et suivi personnalisé sur 6 semaines de stage.",
       impact:
         "Les élèves travaillent mieux, plus rapidement et sont moins angoissés par la peur d’échouer.",
     },
