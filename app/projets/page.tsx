@@ -24,7 +24,7 @@ export default function Projets() {
       <div>
         <h1 className="text-3xl font-bold text-stone-800">Mes Projets & Expériences</h1>
         <p className="text-stone-500 mt-2">
-          Découvre les actions concrètes que j'ai menées sur le terrain.
+          Découvre les projets que j'ai mené.
         </p>
       </div>
 
