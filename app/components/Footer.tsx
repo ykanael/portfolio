@@ -25,7 +25,7 @@ export default function Footer() {
             </h4>
 
             <a
-              href="tel:+33600000000"
+              href="tel:+33778489465"
               className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium"
             >
               <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
@@ -35,7 +35,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:pro@exemple.com"
+              href="lecerfanaelpro@gmail.com"
               className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium break-all"
             >
               <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
@@ -45,7 +45,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:prenom.nom@etu.univ.fr"
+              href="anael.lecerf.etu@univ-lille.fr"
               className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium break-all"
             >
               <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
