@@ -386,7 +386,7 @@ export default function Home() {
         </div>
       </section>
       <Image
-        src="/deco2-photoroom.png"
+        src="/deco.png"
         alt="Ma déco"
         width={1024}
         height={60}
