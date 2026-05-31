@@ -48,16 +48,17 @@ export default function Home() {
       type: "Niveau d'étude",
       annee: "En cours",
       titre: " BUT 2 ASSC",
-      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.",
+      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.
+        Niveau de langue : Anglais B1",
     },
     {
-      type: "Expériences",
+      type: "Expérience",
       annee: "Récente",
       titre: "Stage d'action en école primaire",
       desc: "Conception d'un projet adapté aux enfants rencontrant des difficultés scolaires.",
     },
     {
-      type: "Expériences",
+      type: "Expérience",
       annee: "Passée",
       titre: "Stage d'observation en école primaire",
       desc: "Observation pédagogique en classe CP et en classe Montessori.",
