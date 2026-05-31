@@ -11,8 +11,7 @@ export default function Footer() {
         <div className="space-y-4 md:w-1/3">
           <h3 className="text-3xl font-serif font-bold text-[#D48D85]">Anaël Lecerf</h3>
           <p className="text-sm text-[#FAF5F0]/80 leading-relaxed max-w-sm">
-            Future professionnelle du secteur social, engagée pour l'inclusion et l'épanouissement
-            collectif. Construisons ensemble vos projets de demain.
+            Future professionnelle du secteur social, je m'investis pour favoriser l'inclusion, le travail collectif et l'épanouissement de chacun. Construisons ensemble vos projets de demain.
           </p>
         </div>
 
