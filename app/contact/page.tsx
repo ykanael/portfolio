@@ -50,10 +50,10 @@ export default function Contact() {
                   Téléphone
                 </p>
                 <a
-                  href="tel:+33600000000"
+                  href="tel:+33778489465"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block"
                 >
-                  06 00 00 00 00
+                  07 78 48 94 65
                 </a>
               </div>
             </div>
@@ -68,10 +68,10 @@ export default function Contact() {
                   Email Pro
                 </p>
                 <a
-                  href="mailto:pro@exemple.com"
+                  href="lecerfanaelpro@gmail.com"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
-                  prenom.nom.pro@gmail.com
+                  lecerfanaelpro@gmail.com
                 </a>
               </div>
             </div>
@@ -86,10 +86,10 @@ export default function Contact() {
                   Email Universitaire
                 </p>
                 <a
-                  href="mailto:prenom.nom@etu.univ.fr"
+                  href="anael.lecerf.etu@univ-lille.fr"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
-                  prenom.nom@etu.univ.fr
+                  anael.lecerf.etu@univ-lille.fr
                 </a>
               </div>
             </div>
@@ -110,12 +110,12 @@ export default function Contact() {
                   LinkedIn
                 </p>
                 <a
-                  href="https://linkedin.com/in/ton-profil"
+                  href="https://www.linkedin.com/in/anael-lecerf-71b582321/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
-                  linkedin.com/in/ton-profil
+                  Anael-Lecerf
                 </a>
               </div>
             </div>
