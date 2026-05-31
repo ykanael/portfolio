@@ -115,7 +115,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
-                  Anael-Lecerf
+                  Anael Lecerf
                 </a>
               </div>
             </div>
