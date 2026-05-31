@@ -52,15 +52,15 @@ export default function Home() {
     },
     {
       type: "Expériences",
-      annee: "Récemment",
-      titre: "Missions sur le Terrain",
-      desc: "Création d'ateliers intergénérationnels, gestion de la dynamique de groupe et conception de projets pédagogiques adaptés.",
+      annee: "Récente",
+      titre: "Stage d'action en école primaire",
+      desc: "Conception d'un projet adapté aux enfants rencontrant des difficultés scolaires.",
     },
     {
-      type: "Avenir Pro",
-      annee: "Demain",
-      titre: "Mon Objectif",
-      desc: "Devenir coordinatrice de projets sociaux ou animatrice socio-culturelle confirmée au sein d'une structure inclusive.",
+      type: "Expériences",
+      annee: "Passée",
+      titre: "Stage d'observation en école primaire",
+      desc: "Observation pédagogique en classe CP et en classe Montessori.",
     },
   ];
 
