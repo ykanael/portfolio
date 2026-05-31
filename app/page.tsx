@@ -48,7 +48,7 @@ export default function Home() {
       type: "Niveau d'étude",
       annee: "En cours",
       titre: " BUT 2 ASSC",
-      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.",
+      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.<br> Test",
     },
     {
       type: "Expérience",
