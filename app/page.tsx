@@ -46,9 +46,9 @@ export default function Home() {
   const parcours = [
     {
       type: "Niveau d'étude",
-      annee: "Aujourd'hui",
-      titre: "ASSC 2",
-      desc: "Formation spécialisée dans l'accompagnement des publics fragilisés et la mise en place de projets sociaux et culturels.",
+      annee: "En cours",
+      titre: " BUT 2 ASSC",
+      desc: "Formation Bachelor universitaire de technologie en carrière sociale parcours animation sociale et socio-culturelle.",
     },
     {
       type: "Expériences",
