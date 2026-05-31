@@ -1,9 +1,9 @@
 export default function Projets() {
   const projets = [
     {
-      titre: "Projet Intergénérationnel 'Mémoire Vive'",
-      public: "Seniors & Adolescents",
-      structure: "Centre Social des Trois Vallées",
+      titre: "Projet en cours : Alim’Action",
+      public: "18-23 ans",
+      structure: "IUT Tourcoing",
       description:
         "Conception et animation d'ateliers de partage de mémoire entre les jeunes d'un club ado et les résidents d'un EHPAD local autour du jeu et de la cuisine.",
       impact:
