@@ -34,7 +34,7 @@ export default function Projets() {
           >
             <div className="md:w-1/4 bg-[#F8EBE9] rounded-xl px-4 py-8 flex flex-col justify-between text-sm border border-[#F3DDDA]">
               <div>
-                <span className="bxl:text-[1.20] lock font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
+                <span className="xl:text-[1.20] lock font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Public
                 </span>
                 <span className="xl:text-xl text-stone-700 font-medium">{p.public}</span>
