@@ -53,7 +53,7 @@ export default function Projets() {
 
               <div className="bg-[#F8EBE9] border-l-4 border-[#CF7B71] p-3 rounded-r-lg mt-4">
                 <span className="xl:text-xl font-semibold text-[#8A4A43] text-sm">Résultat / Impact : </span>
-                <span className="text-[#A35952] text-sm">{p.impact}</span>
+                <span className="xl:text-xl text-[#A35952] text-sm">{p.impact}</span>
               </div>
             </div>
           </div>
