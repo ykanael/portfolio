@@ -34,16 +34,16 @@ export default function Projets() {
           >
             <div className="md:w-1/4 bg-[#F8EBE9] rounded-xl px-4 py-8 flex flex-col justify-between text-sm border border-[#F3DDDA]">
               <div>
-                <span className="block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
+                <span className="xl:text-xl block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Public
                 </span>
-                <span className="text-stone-700 font-medium">{p.public}</span>
+                <span className="xl:text-xl text-stone-700 font-medium">{p.public}</span>
               </div>
               <div className="mt-4">
-                <span className="block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
+                <span className="xl:text-xl block font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Structure
                 </span>
-                <span className="text-stone-700 font-medium">{p.structure}</span>
+                <span className="xl:text-xl text-stone-700 font-medium">{p.structure}</span>
               </div>
             </div>
 
