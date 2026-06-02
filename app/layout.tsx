@@ -16,7 +16,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <nav className="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
             <div className="xl:text-xl flex gap-2">
-              <Link href="/" className="xl:text-xl font-bold text-xl text-[#CF7B71] top-[0.830rem] relative">
+              <Link href="/" className="xl:text-[1.4rem] font-bold text-xl text-[#CF7B71] top-[0.830rem] relative">
                 Mon Portfolio
               </Link>
               <Image
