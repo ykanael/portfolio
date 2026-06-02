@@ -101,7 +101,7 @@ export default function Home() {
           </h1>
 
           <div className="space-y-5 pt-2">
-            <p className="xl:text-2xl text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium">
+            <p className="xl:text-2xl text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium text-justify">
               En formation dans le secteur social, je m'investis pour favoriser l'inclusion, le
               travail collectif et l'épanouissement de chacun.
             </p>
@@ -180,7 +180,7 @@ export default function Home() {
                     <h4 className="xl:text-4xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
-                    <p className="xl:text-2xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
+                    <p className="xl:text-2xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line text-justify">
                       {item.desc}
                     </p>
                   </div>
@@ -344,7 +344,7 @@ export default function Home() {
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
                   Environnement de travail sain et positif
                 </li>
-                <li className="xl:text-[1.4rem] flex items-start gap-3">
+                <li className="xl:text-[1.4rem] flex items-start gap-3 text-justify">
                   <span className="xl:text-2xl text-[#D48D85] mt-1">✓</span>
                   Avoir un niveau de vie qui me permets d’atteindre mes objectifs personnels
                 </li>
