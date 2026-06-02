@@ -378,7 +378,7 @@ export default function Home() {
 
           <Link
             href="/contact"
-            className="w-full md:w-auto bg-white text-[#BA6B65] px-10 py-4 rounded-full font-bold text-base md:xl:text-2xl hover:bg-[#F5E1DE] transition text-center shadow-lg hover:-translate-y-1 z-10"
+            className="w-full md:w-auto bg-white text-[#BA6B65] px-10 py-4 rounded-full font-bold text-base md:xl:text-[1.4rem] hover:bg-[#F5E1DE] transition text-center shadow-lg hover:-translate-y-1 z-10"
           >
             Me contacter
           </Link>
