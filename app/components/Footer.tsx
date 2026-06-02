@@ -10,7 +10,7 @@ export default function Footer() {
         {/* --- Partie Gauche : Présentation --- */}
         <div className="space-y-4 md:w-1/3">
           <h3 className="text-3xl font-serif font-bold text-[#D48D85]">Anaël Lecerf</h3>
-          <p className="xl:text-[1.4rem]text-sm text-[#FAF5F0]/80 leading-relaxed max-w-sm">
+          <p className="xl:text-[1.4rem]text-sm text-[#FAF5F0]/80 leading-relaxed max-w-sm text-justify">
             Future professionnelle du secteur social, je m'investis pour favoriser l'inclusion, le travail collectif et l'épanouissement de chacun. Construisons ensemble vos projets de demain.
           </p>
         </div>
@@ -19,13 +19,13 @@ export default function Footer() {
         <div className="md:w-2/3 flex flex-col sm:flex-row gap-10 sm:gap-16 md:justify-end">
           {/* Colonne Contacts */}
           <div className="space-y-4">
-            <h4 className="font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
+            <h4 className="xl:text-[1.4rem] font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
               Me contacter
             </h4>
 
             <a
               href="tel:+33778489465"
-              className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium"
+              className="xl:text-[1.4rem] group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium"
             >
               <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
                 <Phone className="w-4 h-4" />
@@ -35,7 +35,7 @@ export default function Footer() {
 
             <a
               href="lecerfanaelpro@gmail.com"
-              className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium break-all"
+              className="xl:text-[1.4rem] group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium break-all"
             >
               <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
                 <Mail className="w-4 h-4" />
@@ -47,7 +47,7 @@ export default function Footer() {
               href="anael.lecerf.etu@univ-lille.fr"
               className="group flex items-center gap-3 hover:text-[#D48D85] transition-colors text-sm font-medium break-all"
             >
-              <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
+              <span className="xl:text-[1.4rem] w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#D48D85]/20 transition-colors">
                 <GraduationCap className="w-4 h-4" />
               </span>
               anael.lecerf.etu@univ-lille.fr
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Colonne Réseaux & Navigation */}
           <div className="space-y-4">
-            <h4 className="font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
+            <h4 className="xl:text-[1.4rem] font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
               Réseaux
             </h4>
 
@@ -72,7 +72,7 @@ export default function Footer() {
                   alt="LinkedIn"
                   width={14}
                   height={14}
-                  className="brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
+                  className="xl:text-[1.4rem] brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity"
                 />
               </span>
               LinkedIn
