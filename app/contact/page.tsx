@@ -61,7 +61,7 @@ await emailjs.send(
             On collabore ?
           </h1>
           <p className="xl:text-2xl text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto">
-            À la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter
+            Je suis à la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter
             via le formulaire ou directement via mes coordonnées.
           </p>
         </div>
