@@ -75,7 +75,7 @@ export default function Home() {
           {/* Zone d'en-tête avec animation ET petit logo */}
           <div className="flex flex-wrap items-center gap-4 mb-4">
             <div className="flex items-center gap-3">
-              <span className="xl:text-3xl text-[#D48D85] font-serif italic text-xl md:text-2xl border-r-2 border-[#D48D85] pr-2">
+              <span className="xl:text-2xl text-[#D48D85] font-serif italic text-xl md:text-2xl border-r-2 border-[#D48D85] pr-2">
                 {currentText}
               </span>
               <button
