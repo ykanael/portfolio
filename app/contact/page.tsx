@@ -77,7 +77,7 @@ await emailjs.send(
                 <Phone className="w-5 h-5" strokeWidth={2.5} />
               </div>
               <div>
-                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-[1.22] text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   Téléphone
                 </p>
                 <a
@@ -176,7 +176,7 @@ await emailjs.send(
                 className="bg-white p-8 md:p-10 rounded-[2rem] shadow-lg border border-[#F5E1DE] space-y-6"
               >
                 <div>
-                  <label className="block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
+                  <label className="xl:text-xl block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
                     Nom complet
                   </label>
                   <input
@@ -189,7 +189,7 @@ await emailjs.send(
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
+                  <label className="xl:text-xl block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
                     Adresse email
                   </label>
                   <input
@@ -202,7 +202,7 @@ await emailjs.send(
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
+                  <label className="xl:text-xl block text-sm font-bold text-[#472322] mb-2 uppercase tracking-wide">
                     Votre Message
                   </label>
                   <textarea
