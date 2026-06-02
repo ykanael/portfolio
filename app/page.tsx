@@ -305,8 +305,7 @@ export default function Home() {
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
               <ul className="xl:text-xl text-[#FAF5F0] font-medium text-md space-y-1">
-                <li className="relative bottom-0.5">Word</li>
-                <li className="relative bottom-0.5">PowerPoint</li>
+                <li className="relative bottom-0.5">Word / PowerPoint</li>
                 <li className="relative bottom-0.5">Canva</li>
                 <li className="relative bottom-0.5">Teams</li>
                 <li className="relative bottom-0.5">Google Sheets / Forms</li>
