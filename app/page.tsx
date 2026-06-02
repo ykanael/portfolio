@@ -177,7 +177,7 @@ export default function Home() {
                     <span className="xl:text-2xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
                       {item.type} • {item.annee}
                     </span>
-                    <h4 className="xl:text-2xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
+                    <h4 className="xl:text-3xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
                     <p className="xl:text-2xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
