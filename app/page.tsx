@@ -174,13 +174,13 @@ export default function Home() {
                   className={`pl-20 md:pl-0 md:w-1/2 ${idx % 2 === 0 ? "md:pl-12" : "md:pr-12"}`}
                 >
                   <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-[#F5E1DE] group-hover:-translate-y-2 group-hover:shadow-xl transition-all duration-300">
-                    <span className="xl:text-3xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
+                    <span className="xl:text-2xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
                       {item.type} • {item.annee}
                     </span>
-                    <h4 className="xl:text-3xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
+                    <h4 className="xl:text-2xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
-                    <p className="xl:text-3xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
+                    <p className="xl:text-2xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
                       {item.desc}
                     </p>
                   </div>
@@ -252,11 +252,11 @@ export default function Home() {
               <span className="text-3xl" aria-hidden="true">
                 🧠
               </span>
-              <h3 className="text-2xl font-serif text-[#472322] font-bold">Soft Skills</h3>
+              <h3 className="text-3xl font-serif text-[#472322] font-bold">Soft Skills</h3>
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="text-[#472322] font-medium text-md space-y-1">
+              <ul className="xl:text-2xl text-[#472322] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Adaptabilité</li>
                 <li className="relative bottom-0.5">Communication claire</li>
                 <li className="relative bottom-0.5">Bienveillance</li>
@@ -274,13 +274,13 @@ export default function Home() {
               <span className="text-3xl" aria-hidden="true">
                 🛠️
               </span>
-              <h3 className="text-2xl font-serif text-[#472322] font-bold group-hover:text-white transition-colors duration-500">
+              <h3 className="text-3xl font-serif text-[#472322] font-bold group-hover:text-white transition-colors duration-500">
                 Hard Skills
               </h3>
             </div>
 
             <div className="absolute bottom-6 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="text-white font-medium text-md space-y-1 ">
+              <ul className="xl:text-2xl text-white font-medium text-md space-y-1 ">
                 <li className="relative bottom-0.5">Analyser les besoins</li>
                 <li className="relative bottom-0.5">Gérer les conflits</li>
                 <li className="relative bottom-0.5">Développer le lien social</li>
@@ -298,13 +298,13 @@ export default function Home() {
               <span className="text-3xl" aria-hidden="true">
                 💻
               </span>
-              <h3 className="text-2xl font-serif text-[#472322] font-bold group-hover:text-white transition-colors duration-500">
+              <h3 className="text-3xl font-serif text-[#472322] font-bold group-hover:text-white transition-colors duration-500">
                 Maîtrise Logiciels
               </h3>
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="text-[#FAF5F0] font-medium text-md space-y-1">
+              <ul className="xl:text-2xl text-[#FAF5F0] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Word</li>
                 <li className="relative bottom-0.5">PowerPoint</li>
                 <li className="relative bottom-0.5">Canva</li>
