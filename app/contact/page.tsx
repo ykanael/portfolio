@@ -30,7 +30,7 @@ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
 // 2. On vérifie qu'elles sont bien présentes
 if (!serviceId || !templateId || !publicKey) {
-  console.error("Erreur : Variables d'environnement manquantes");
+  console.error("Erreur : Variables d'environnement manquantes" + "service: " + serviceId + "template: " + templateId + "public: " + publicKey);
   return; // Arrête l'exécution si les clés sont absentes
 }
 
