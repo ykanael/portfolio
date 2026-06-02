@@ -36,13 +36,13 @@ export default function Projets() {
               <div>
                 <span className="xl:text-lg lock font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Public
-                </span><br>
+                </span><br/>
                 <span className="xl:text-lg text-stone-700 font-medium">{p.public}</span>
               </div>
               <div className="mt-4">
                 <span className="xl:text-lg font-bold text-[#CF7B71] uppercase tracking-wider text-xs mb-1">
                   Structure
-                </span> <br>
+                </span> <br/>
                 <span className="xl:text-lg text-stone-700 font-medium">{p.structure}</span>
               </div>
             </div>
