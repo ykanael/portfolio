@@ -256,7 +256,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-2xl text-[#472322] font-medium text-md space-y-1">
+              <ul className="xl:text-lg text-[#472322] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Adaptabilité</li>
                 <li className="relative bottom-0.5">Communication claire</li>
                 <li className="relative bottom-0.5">Bienveillance</li>
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-6 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-2xl text-white font-medium text-md space-y-1 ">
+              <ul className="xl:text-lg text-white font-medium text-md space-y-1 ">
                 <li className="relative bottom-0.5">Analyser les besoins</li>
                 <li className="relative bottom-0.5">Gérer les conflits</li>
                 <li className="relative bottom-0.5">Développer le lien social</li>
@@ -304,7 +304,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-2xl text-[#FAF5F0] font-medium text-md space-y-1">
+              <ul className="xl:text-lg text-[#FAF5F0] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Word</li>
                 <li className="relative bottom-0.5">PowerPoint</li>
                 <li className="relative bottom-0.5">Canva</li>
