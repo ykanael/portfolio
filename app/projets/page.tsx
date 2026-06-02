@@ -48,7 +48,7 @@ export default function Projets() {
             </div>
 
             <div className="md:w-3/4 space-y-3">
-              <h2 className="text-2xl font-bold text-stone-800">{p.titre}</h2>
+              <h2 className="text-3xl font-bold text-stone-800">{p.titre}</h2>
               <p className="xl:text-xl text-stone-600 leading-relaxed">{p.description}</p>
 
               <div className="bg-[#F8EBE9] border-l-4 border-[#CF7B71] p-3 rounded-r-lg mt-4">
