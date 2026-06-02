@@ -49,10 +49,10 @@ export default function Projets() {
 
             <div className="md:w-3/4 space-y-3">
               <h2 className="text-2xl font-bold text-stone-800">{p.titre}</h2>
-              <p className="text-stone-600 leading-relaxed">{p.description}</p>
+              <p className="xl:text-xl text-stone-600 leading-relaxed">{p.description}</p>
 
               <div className="bg-[#F8EBE9] border-l-4 border-[#CF7B71] p-3 rounded-r-lg mt-4">
-                <span className="font-semibold text-[#8A4A43] text-sm">Résultat / Impact : </span>
+                <span className="xl:text-xl font-semibold text-[#8A4A43] text-sm">Résultat / Impact : </span>
                 <span className="text-[#A35952] text-sm">{p.impact}</span>
               </div>
             </div>
