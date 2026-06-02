@@ -337,12 +337,12 @@ export default function Home() {
                   <span className="text-[#D48D85] mt-1">✓</span>
                   Me rendre utile en étant sollicitée par les autres
                 </li>
-                <li className="xl:text-lg flex items-start gap-3">
-                  <span className="xl:text-lg text-[#D48D85] mt-1">✓</span>
-                  Besoin de créer une routine cadrée
-                </li>
                 <li className="xl:text-xl flex items-start gap-3">
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
+                  Besoin de créer une routine cadrée
+                </li>
+                <li className="xl:text-1xl flex items-start gap-3">
+                  <span className="xl:text-1xl text-[#D48D85] mt-1">✓</span>
                   Environnement de travail sain et positif
                 </li>
                 <li className="xl:text-2xl flex items-start gap-3">
