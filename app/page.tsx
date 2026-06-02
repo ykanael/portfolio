@@ -332,7 +332,7 @@ export default function Home() {
 
             <div className="md:w-2/3">
               <ul className="xl:text-[1.4rem] text-[#6D4C4B] text-base md:text-lg space-y-4 font-medium">
-                <li className="xl:text-xl flex items-start gap-3">
+                <li className="xl:text-[1.4rem] flex items-start gap-3">
                   <span className="text-[#D48D85] mt-1">✓</span>
                   Me rendre utile en étant sollicitée par les autres
                 </li>
