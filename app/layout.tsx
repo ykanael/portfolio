@@ -34,7 +34,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 href="/"
                 className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
               >
-                <div className="flex gap-1.5">
+                <div className="xl:text-[1.4rem] flex gap-1.5">
                   <House className="xl:text-[1.4rem] w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
                   Accueil
                 </div>
@@ -43,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 href="/projets"
                 className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
               >
-                <div className="flex gap-1.5">
+                <div className="xl:text-[1.4rem] flex gap-1.5">
                   <Heart className="xl:text-[1.4rem] w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
                   Mes Projets
                 </div>
