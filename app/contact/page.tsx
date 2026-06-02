@@ -60,7 +60,7 @@ await emailjs.send(
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#472322]">
             On collabore ?
           </h1>
-          <p className="xl:text-[1.4rem] text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto">
+          <p className="xl:text-xl text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto">
             À la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter
             via le formulaire ou directement via mes coordonnées.
           </p>
