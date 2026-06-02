@@ -101,7 +101,7 @@ export default function Home() {
           </h1>
 
           <div className="space-y-5 pt-2">
-            <p className="xl:text-2xl text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium text-justify">
+            <p className="xl:text-[1.4rem] text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium text-justify">
               En formation dans le secteur social, je m'investis pour favoriser l'inclusion, le
               travail collectif et l'épanouissement de chacun.
             </p>
@@ -174,13 +174,13 @@ export default function Home() {
                   className={`pl-20 md:pl-0 md:w-1/2 ${idx % 2 === 0 ? "md:pl-12" : "md:pr-12"}`}
                 >
                   <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-[#F5E1DE] group-hover:-translate-y-2 group-hover:shadow-xl transition-all duration-300">
-                    <span className="xl:text-2xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
+                    <span className="xl:text-xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
                       {item.type} • {item.annee}
                     </span>
                     <h4 className="xl:text-4xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
-                    <p className="xl:text-2xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line text-justify">
+                    <p className="xl:text-[1.4rem] text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line text-justify">
                       {item.desc}
                     </p>
                   </div>
@@ -205,7 +205,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-10">
-            <span className="xl:text-2xl text-[#FAF5F0] font-bold text-sm tracking-wider uppercase mb-3 block opacity-90">
+            <span className="xl:text-[1.4rem] text-[#FAF5F0] font-bold text-sm tracking-wider uppercase mb-3 block opacity-90">
               Ce qui m'anime
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-white mb-12 drop-shadow-sm">
@@ -256,7 +256,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-xl text-[#472322] font-medium text-md space-y-1">
+              <ul className="xl:text-[1.4rem] text-[#472322] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Adaptabilité</li>
                 <li className="relative bottom-0.5">Communication claire</li>
                 <li className="relative bottom-0.5">Bienveillance</li>
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-6 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-xl text-white font-medium text-md space-y-1 ">
+              <ul className="xl:text-[1.4rem] text-white font-medium text-md space-y-1 ">
                 <li className="relative bottom-0.5">Analyser les besoins</li>
                 <li className="relative bottom-0.5">Gérer les conflits</li>
                 <li className="relative bottom-0.5">Développer le lien social</li>
@@ -304,7 +304,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-xl text-[#FAF5F0] font-medium text-md space-y-1">
+              <ul className="xl:text-[1.4rem] text-[#FAF5F0] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Word / PowerPoint</li>
                 <li className="relative bottom-0.5">Canva</li>
                 <li className="relative bottom-0.5">Teams</li>
@@ -371,7 +371,7 @@ export default function Home() {
             <h3 className="text-3xl md:text-4xl font-serif text-white leading-tight">
               Construisons quelque chose ensemble
             </h3>
-            <p className="text-[#F5E1DE] text-sm md:text-base">
+            <p className="xl:text-2xl text-[#F5E1DE] text-sm md:text-base">
               Prêt(e) à me connaître davantage ?
             </p>
           </div>
