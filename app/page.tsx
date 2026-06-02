@@ -101,7 +101,7 @@ export default function Home() {
           </h1>
 
           <div className="space-y-5 pt-2">
-            <p className="text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium">
+            <p className="xl:text-2xl text-[#6D4C4B] leading-relaxed max-w-lg text-base md:text-lg font-medium">
               En formation dans le secteur social, je m'investis pour favoriser l'inclusion, le
               travail collectif et l'épanouissement de chacun.
             </p>
