@@ -341,7 +341,7 @@ export default function Home() {
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
                   Besoin de créer une routine cadrée
                 </li>
-                <li className="xl:text-xl flex items-start gap-3">
+                <li className="xl:text-[1.4rem] flex items-start gap-3">
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
                   Environnement de travail sain et positif
                 </li>
