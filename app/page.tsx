@@ -256,7 +256,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-[1.4rem] text-[#472322] font-medium text-md space-y-1">
+              <ul className="xl:text-xl text-[#472322] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Adaptabilité</li>
                 <li className="relative bottom-0.5">Communication claire</li>
                 <li className="relative bottom-0.5">Bienveillance</li>
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-6 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-[1.4rem] text-white font-medium text-md space-y-1 ">
+              <ul className="xl:text-xl text-white font-medium text-md space-y-1 ">
                 <li className="relative bottom-0.5">Analyser les besoins</li>
                 <li className="relative bottom-0.5">Gérer les conflits</li>
                 <li className="relative bottom-0.5">Développer le lien social</li>
@@ -304,7 +304,7 @@ export default function Home() {
             </div>
 
             <div className="absolute bottom-8 left-0 right-0 px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 z-10 text-center">
-              <ul className="xl:text-[1.4rem] text-[#FAF5F0] font-medium text-md space-y-1">
+              <ul className="xl:text-xl text-[#FAF5F0] font-medium text-md space-y-1">
                 <li className="relative bottom-0.5">Word / PowerPoint</li>
                 <li className="relative bottom-0.5">Canva</li>
                 <li className="relative bottom-0.5">Teams</li>
@@ -378,7 +378,7 @@ export default function Home() {
 
           <Link
             href="/contact"
-            className="w-full md:w-auto bg-white text-[#BA6B65] px-10 py-4 rounded-full font-bold text-base md:text-lg hover:bg-[#F5E1DE] transition text-center shadow-lg hover:-translate-y-1 z-10"
+            className="w-full md:w-auto bg-white text-[#BA6B65] px-10 py-4 rounded-full font-bold text-base md:xl:text-2xl hover:bg-[#F5E1DE] transition text-center shadow-lg hover:-translate-y-1 z-10"
           >
             Me contacter
           </Link>
