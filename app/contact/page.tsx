@@ -60,7 +60,7 @@ await emailjs.send(
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#472322]">
             On collabore ?
           </h1>
-          <p className="xl:text-[1.4rem] text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto">
+          <p className="xl:text-[1.4rem] text-[#6D4C4B] mt-4 text-lg max-w-2xl mx-auto text-justify">
             À la recherche d'un stage, d'une alternance ou d’un emploi, n'hésitez pas à me contacter
             via le formulaire ou directement via mes coordonnées.
           </p>
@@ -77,12 +77,12 @@ await emailjs.send(
                 <Phone className="w-5 h-5" strokeWidth={2.5} />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   Téléphone
                 </p>
                 <a
                   href="tel:+33778489465"
-                  className="text-[#472322] font-medium hover:text-[#BA6B65] transition block"
+                  className="xl:text-xl text-[#472322] font-medium hover:text-[#BA6B65] transition block"
                 >
                   07 78 48 94 65
                 </a>
@@ -95,12 +95,12 @@ await emailjs.send(
                 <Mail className="w-5 h-5" strokeWidth={2.5} />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   Email Pro
                 </p>
                 <a
                   href="mailto:lecerfanaelpro@gmail.com"
-                  className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
+                  className="xl:text-xl text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
                   lecerfanaelpro@gmail.com
                 </a>
@@ -113,12 +113,12 @@ await emailjs.send(
                 <GraduationCap className="w-6 h-6" strokeWidth={2} />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   Email Universitaire
                 </p>
                 <a
                   href="mailto:anael.lecerf.etu@univ-lille.fr"
-                  className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
+                  className="xl:text-xl text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
                   anael.lecerf.etu@univ-lille.fr
                 </a>
@@ -137,14 +137,14 @@ await emailjs.send(
                 />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   LinkedIn
                 </p>
                 <a
                   href="https://www.linkedin.com/in/anael-lecerf-71b582321/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
+                  className="xl:text-xl text-[#472322] font-medium hover:text-[#BA6B65] transition block break-all"
                 >
                   Anael Lecerf
                 </a>
