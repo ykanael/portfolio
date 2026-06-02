@@ -284,7 +284,7 @@ export default function Home() {
                 <li className="relative bottom-0.5">Analyser les besoins</li>
                 <li className="relative bottom-0.5">Gérer les conflits</li>
                 <li className="relative bottom-0.5">Développer le lien social</li>
-                <li className="relative bottom-0.5">Bases en psychologie sociale</li>
+                <li className="relative bottom-0.5">Gestion de groupe</li>
                 <li className="relative bottom-0.5">Maîtriser la bureautique</li>
               </ul>
             </div>
