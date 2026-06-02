@@ -205,7 +205,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-10">
-            <span className="text-[#FAF5F0] font-bold text-sm tracking-wider uppercase mb-3 block opacity-90">
+            <span className="xl:text-2xl text-[#FAF5F0] font-bold text-sm tracking-wider uppercase mb-3 block opacity-90">
               Ce qui m'anime
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-white mb-12 drop-shadow-sm">
