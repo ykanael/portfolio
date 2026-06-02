@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="md:w-2/3 flex flex-col sm:flex-row gap-10 sm:gap-16 md:justify-end">
           {/* Colonne Contacts */}
           <div className="space-y-4">
-            <h4 className="xl:text-xl font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
+            <h4 className="xl:text-xl font-bold font-serif uppercase tracking-widest text-xs text-[#D48D85] mb-6">
               Me contacter
             </h4>
 
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Colonne Réseaux & Navigation */}
           <div className="space-y-4">
-            <h4 className="xl:text-[1.4rem] font-bold uppercase tracking-widest text-xs text-[#D48D85] mb-6">
+            <h4 className="xl:text-[1.4rem] font-bold font-serif uppercase tracking-widest text-xs text-[#D48D85] mb-6">
               Réseaux
             </h4>
 
