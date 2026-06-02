@@ -174,13 +174,13 @@ export default function Home() {
                   className={`pl-20 md:pl-0 md:w-1/2 ${idx % 2 === 0 ? "md:pl-12" : "md:pr-12"}`}
                 >
                   <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-[#F5E1DE] group-hover:-translate-y-2 group-hover:shadow-xl transition-all duration-300">
-                    <span className="text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
+                    <span className="xl:text-3xl text-[#D48D85] font-bold text-xs md:text-sm tracking-wider uppercase">
                       {item.type} • {item.annee}
                     </span>
-                    <h4 className="text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
+                    <h4 className="xl:text-3xl text-xl md:text-2xl font-serif text-[#472322] mt-2 mb-3">
                       {item.titre}
                     </h4>
-                    <p className="text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
+                    <p className="xl:text-3xl text-[#6D4C4B] text-sm md:text-base leading-relaxed whitespace-pre-line">
                       {item.desc}
                     </p>
                   </div>
