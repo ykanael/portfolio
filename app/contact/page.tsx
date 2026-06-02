@@ -69,7 +69,7 @@ await emailjs.send(
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
           {/* --- COLONNE GAUCHE : Coordonnées directes --- */}
           <div className="w-full lg:w-5/12 space-y-4">
-            <h2 className="text-2xl font-serif text-[#472322] mb-6">Mes coordonnées</h2>
+            <h2 className="text-3xl font-serif text-[#472322] mb-6">Mes coordonnées</h2>
 
             {/* Téléphone */}
             <div className="group flex items-center gap-5 bg-white p-5 rounded-2xl shadow-sm border border-[#F5E1DE] hover:shadow-md hover:-translate-y-1 transition-all duration-300">
@@ -77,7 +77,7 @@ await emailjs.send(
                 <Phone className="w-5 h-5" strokeWidth={2.5} />
               </div>
               <div>
-                <p className="xl:text-[1.22] text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
+                <p className="xl:text-xl text-xs font-bold uppercase tracking-wider text-[#D48D85] mb-1">
                   Téléphone
                 </p>
                 <a
@@ -154,7 +154,7 @@ await emailjs.send(
 
           {/* --- COLONNE DROITE : Formulaire --- */}
           <div className="w-full lg:w-7/12 mt-10 lg:mt-0">
-            <h2 className="text-2xl font-serif text-[#472322] mb-6">M'envoyer un message</h2>
+            <h2 className="text-3xl font-serif text-[#472322] mb-6">M'envoyer un message</h2>
 
             {success ? (
               <div className="bg-white p-8 rounded-[2rem] shadow-sm border border-[#D48D85] text-center space-y-4">
