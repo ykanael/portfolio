@@ -353,7 +353,7 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-[#fcebe8] border-l-4 border-[#D48D85] mt-5 p-4 lg:p-6 rounded-lg">
-            <p className="xl:text-md text-sm lg:text-base text-gray-700">
+            <p className="xl:text-[1.4rem] text-sm lg:text-base text-gray-700">
               💜 <strong>Aspirations professionnelles :</strong> En intégrant un Master MEEF, je
               souhaite m’orienter vers le métier de Professeur des écoles ou Conseiller principal
               d'éducation. Ces métiers répondent parfaitement à mes attentes et me permettront de
