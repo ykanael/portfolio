@@ -23,7 +23,7 @@ export default function Projets() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold text-stone-800">Mes Projets & Expériences</h1>
-        <p className="text-stone-500 mt-2">Découvrez les projets que j'ai mené.</p>
+        <p className="xl:text-[1.4rem] text-stone-500 mt-2">Découvrez les projets que j'ai mené.</p>
       </div>
 
       <div className="grid gap-8">
