@@ -332,12 +332,12 @@ export default function Home() {
             </div>
 
             <div className="md:w-2/3">
-              <ul className="xl:text-xl text-[#6D4C4B] text-base md:text-lg space-y-4 font-medium">
+              <ul className="xl:text-[1.4rem] text-[#6D4C4B] text-base md:text-lg space-y-4 font-medium">
                 <li className="xl:text-xl flex items-start gap-3">
                   <span className="text-[#D48D85] mt-1">✓</span>
                   Me rendre utile en étant sollicitée par les autres
                 </li>
-                <li className="xl:text-xl flex items-start gap-3">
+                <li className="xl:text-[1.4rem] flex items-start gap-3">
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
                   Besoin de créer une routine cadrée
                 </li>
@@ -345,7 +345,7 @@ export default function Home() {
                   <span className="xl:text-xl text-[#D48D85] mt-1">✓</span>
                   Environnement de travail sain et positif
                 </li>
-                <li className="xl:text-2xl flex items-start gap-3">
+                <li className="xl:text-[1.4rem] flex items-start gap-3">
                   <span className="xl:text-2xl text-[#D48D85] mt-1">✓</span>
                   Avoir un niveau de vie qui me permets d’atteindre mes objectifs personnels
                 </li>
