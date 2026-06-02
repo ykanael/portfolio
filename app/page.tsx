@@ -332,28 +332,28 @@ export default function Home() {
             </div>
 
             <div className="md:w-2/3">
-              <ul className="text-[#6D4C4B] text-base md:text-lg space-y-4 font-medium">
-                <li className="flex items-start gap-3">
+              <ul className="xl:text-lg text-[#6D4C4B] text-base md:text-lg space-y-4 font-medium">
+                <li className="xl:text-lg flex items-start gap-3">
                   <span className="text-[#D48D85] mt-1">✓</span>
                   Me rendre utile en étant sollicitée par les autres
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#D48D85] mt-1">✓</span>
+                <li className="xl:text-lg flex items-start gap-3">
+                  <span className="xl:text-lg text-[#D48D85] mt-1">✓</span>
                   Besoin de créer une routine cadrée
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#D48D85] mt-1">✓</span>
+                <li className="xl:text-lg flex items-start gap-3">
+                  <span className="xl:text-lg text-[#D48D85] mt-1">✓</span>
                   Environnement de travail sain et positif
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#D48D85] mt-1">✓</span>
+                <li className="xl:text-2xl flex items-start gap-3">
+                  <span className="xl:text-2xl text-[#D48D85] mt-1">✓</span>
                   Avoir un niveau de vie qui me permets d’atteindre mes objectifs personnels
                 </li>
               </ul>
             </div>
           </div>
           <div className="bg-[#fcebe8] border-l-4 border-[#D48D85] mt-5 p-4 lg:p-6 rounded-lg">
-            <p className="text-sm lg:text-base text-gray-700">
+            <p className="xl:text-md text-sm lg:text-base text-gray-700">
               💜 <strong>Aspirations professionnelles :</strong> En intégrant un Master MEEF, je
               souhaite m’orienter vers le métier de Professeur des écoles ou Conseiller principal
               d'éducation. Ces métiers répondent parfaitement à mes attentes et me permettront de
