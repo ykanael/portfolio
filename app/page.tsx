@@ -62,6 +62,11 @@ export default function Home() {
       titre: "Stage d'observation en école primaire",
       desc: "Observation pédagogique en classe CP et en classe Montessori.",
     },
+    {
+      type: "Expérience",
+      annee: "Passée",
+      titre: "Titulaire du permis de conduire",
+    },
   ];
 
   return (
@@ -140,7 +145,7 @@ export default function Home() {
 
           <div className="px-6 py-3 z-20 flex items-center justify-center lg:relative lg:right-70">
             <Image
-              src="/logo2.png"
+              src="/logoo.png"
               alt="Mon Logo"
               width={634}
               height={733}

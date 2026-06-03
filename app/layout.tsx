@@ -16,11 +16,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <nav className="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
             <div className="xl:text-xl flex gap-2">
-              <Link href="/" className="xl:text-[1.4rem] font-bold text-xl text-[#CF7B71] top-[0.830rem] relative">
+              <Link
+                href="/"
+                className="xl:text-[1.4rem] font-bold text-xl text-[#CF7B71] top-[0.830rem] relative"
+              >
                 Mon Portfolio
               </Link>
               <Image
-                src="/logo2.png"
+                src="/logoo.png"
                 alt="Mini Logo"
                 width={50}
                 height={25}
@@ -35,7 +38,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
               >
                 <div className="xl:text-xl flex gap-1.5">
-                  <House className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  <House
+                    className="xl:w-5 xl:h-6 w-4 h-5 relative top-[0.075rem]"
+                    strokeWidth={2.5}
+                  />
                   Accueil
                 </div>
               </Link>
@@ -44,7 +50,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
               >
                 <div className="xl:text-xl flex gap-1.5">
-                  <Heart className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  <Heart
+                    className="xl:w-5 xl:h-6 w-4 h-5 relative top-[0.075rem]"
+                    strokeWidth={2.5}
+                  />
                   Mes Projets
                 </div>
               </Link>
@@ -53,7 +62,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 className="px-4 py-2 transition-all duration-300 hover:bg-[#cf877f] hover:text-white hover:rounded-[2.5rem]"
               >
                 <div className="xl:text-xl flex gap-1.5">
-                  <Phone className="w-4 h-5 relative top-[0.075rem]" strokeWidth={2.5} />
+                  <Phone
+                    className="xl:w-5 xl:h-6 w-4 h-5 relative top-[0.075rem]"
+                    strokeWidth={2.5}
+                  />
                   Contact
                 </div>
               </Link>
