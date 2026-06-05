@@ -7,7 +7,7 @@ export default function Projets() {
       description:
         "Action et distribution solidaire auprès des étudiants en situation de précarité alimentaire.",
       impact:
-        "Un soutien alimentaire apporté aux étudiants sans stigmatisation et une création de nouveau lien sociaux.",
+        "Un soutien alimentaire apporté aux étudiants sans stigmatisation et une création de nouveaux liens sociaux.",
     },
     {
       titre: "Aménager l'environnement scolaire pour les élèves DYS",
